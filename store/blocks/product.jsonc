@@ -1,5 +1,9 @@
 {
   "store.product": {
+    "props": {
+      "showSavings" : true,
+      "showListPrice" : true
+    },
      "children": [
        "flex-layout.row#main"
      ]
@@ -26,13 +30,12 @@
     "props": {
       "verticalAlign": "middle",
       "preventVerticalStretch" :  "auto"
+
     },
 
     "children": [
       "product-name",
-      "product-price",
-      "showSavings",
-      "showListPrice",
+      "product-price",  
       "buy-button"
     ]
   }
