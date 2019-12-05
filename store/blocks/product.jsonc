@@ -31,6 +31,8 @@
     "children": [
       "product-name",
       "product-price",
+      "showSavings",
+      "showListPrice",
       "buy-button"
     ]
   }
