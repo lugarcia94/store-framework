@@ -33,6 +33,7 @@
       "product-name", 
       "product-identifier.product",
       "product-price",
+      "sku-selector",
       "flex-layout.row#qty-sku",
       "buy-button"
     ]
@@ -47,7 +48,6 @@
 
   "flex-layout.row#qty-sku": {
     "children": [
-      "sku-selector",
       "product-quantity",
       "shipping-simulator"
     ]
@@ -56,6 +56,14 @@
   "breadcrumb": {
     "props": {
       "showOnMobile": true
+    }
+  },
+
+ 
+
+  "product-quantity": {
+    "props": {
+      "warningQuantityThreshold": 9999999
     }
   }
  
