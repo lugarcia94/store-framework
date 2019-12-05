@@ -5,7 +5,8 @@
       "info-card#button-left",
       "shelf",
       "flex-layout.row",
-      "responsive-layout"
+      "responsive-layout.desktop#desktop",
+      "responsive-layout.mobile#mobile"
     ]
   },
 
