@@ -1,6 +1,36 @@
 {
   "store.product": {
+     "children": [
+       "flex-layout.row#main"
+     ]
+   },
+
+   "flex-layout.row#main": { 
+    "props": { 
+      "marginTop": 6,
+      "verticalAlign": "center"
+    },
     "children": [
+      "flex-layout.col#left",
+      "flex-layout.col#right"
+    ]
+  },
+
+  "flex-layout.col#left": {
+    "children": [
+      "product-images"
+    ]
+  },
+
+  "flex-layout.col#right": {
+    "props": {
+      "verticalAlign": "center"
+    },
+
+    "children": [
+      "product-name",
+      "product-price",
+      "buy-button"
     ]
   }
-}
+ }
