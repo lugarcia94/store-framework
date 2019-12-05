@@ -12,7 +12,6 @@
       "textPosition": "RIGHT"
     }
   },
-
   "info-card#button-right": {
     "props": {
       "isFullModeStyle": false,
