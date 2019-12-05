@@ -23,13 +23,15 @@
       "callToActionMode": "button",
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
-      "textAlignment": "center"
+      "textAlignment": "center",
+      "blockClass": "vintage" 
     }
   },
 
   "info-card#button-left": {
     "props": {
       "isFullModeStyle": false,
+      "blockClass": "metal" ,
       "textPosition": "left",
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
       "headline": "Shining chrome",
