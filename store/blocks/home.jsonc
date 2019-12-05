@@ -1,8 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "info-card#button-right",
-      "shelf",
+      "info-card#button-right", 
       "info-card#button-left",
       "shelf",
       "flex-layout.row"
