@@ -2,7 +2,9 @@
   "store.home": {
     "blocks": [
       "info-card#button-right",
+      "shelf",
       "info-card#button-left",
+      "shelf",
       "flex-layout.row"
     ]
   },
@@ -44,18 +46,16 @@
     }
   },
   "flex-layout.row":{
-    "children": [
-      "info-card",
-      "flex-layout.col"
-    ]
-  },
+    "props": {
+      "blockClass" : "flex__block" 
+    },
 
-  "flex-layout.col": {
     "children": [
       "image#electronics",
       "image#major-appliance"
     ]
   },
+ 
 
   "image#electronics": {
     "props": {
